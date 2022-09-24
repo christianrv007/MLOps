@@ -26,6 +26,8 @@ def suma(a, b):
 def resta(a, b):
     minuendo = obtener_fracciones(a)
     sustraendo = obtener_fracciones(b)
+    minuendo = float(minuendo)
+    sustraendo = float(sustraendo)
     return minuendo - sustraendo
 
 
